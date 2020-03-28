@@ -18,7 +18,7 @@ Be The Hero
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/jairokoning/be-the-hero/master/frontend/src/assets/web.gif" alt="demo-web" height="400" width="700">
+  <img src="https://raw.githubusercontent.com/jairokoning/be-the-hero/master/frontend/src/assets/web.gif" alt="demo-web" height="400" width="800">
   <img src="https://raw.githubusercontent.com/jairokoning/be-the-hero/master/frontend/src/assets/mobile.gif" alt="demo-mobile" height="400">
 </div>
 
