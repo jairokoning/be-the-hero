@@ -8,7 +8,6 @@ Be The Hero
 
 <p align="justify"><strong>Be The Hero</strong> is an application that was developed during the week OmniStack 11 promoted by <a href="https://rocketseat.com.br">Rocketseat</a> , with the objective of connecting people who are willing to help financially to NGOs (Non-governmental organizations) that care and treat animals. The Web system allows NGOs to register cases of animals that have a problem and need financial assistance to carry out the treatment. People who would like to help can use the mobile app to choose a case and contact the NGOs by e-mail or whatsapp.</p>
 
-
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
@@ -18,8 +17,8 @@ Be The Hero
 	<img src="https://img.shields.io/badge/Version-%200.9.0%20-green">
 </p>
 
-<div>
-  <img src="https://raw.githubusercontent.com/jairokoning/be-the-hero/master/frontend/src/assets/web.gif" alt="demo-web" height="400" width="760">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jairokoning/be-the-hero/master/frontend/src/assets/web.gif" alt="demo-web" height="400" width="700">
   <img src="https://raw.githubusercontent.com/jairokoning/be-the-hero/master/frontend/src/assets/mobile.gif" alt="demo-mobile" height="400">
 </div>
 
