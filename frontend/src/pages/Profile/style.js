@@ -60,6 +60,7 @@ export const IncidentDetails = styled.li`
   position: relative;
 
   button {
+    background: transparent;
     position: absolute;
     right: 24px;
     top: 24px;

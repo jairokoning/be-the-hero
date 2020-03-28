@@ -16,6 +16,11 @@ export default function Logon() {
   async function handleLogin(e) {
     e.preventDefault();
 
+    if (!id) {
+      toast.warn('Informe o seu ID');
+      return;
+    }
+
     try {
       const response = await api.post('sessions', { id });
 
@@ -24,7 +29,12 @@ export default function Logon() {
 
       history.push('/profile');
     } catch (err) {
-      toast.error('Falha no Login');
+      
+      if (err.response.data.error && err.response.data.error !== '') {
+        toast.error(err.response.data.error);
+      } else {
+        toast.error('Falha no Login');
+      }      
     }
   }
 

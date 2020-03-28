@@ -21,6 +21,11 @@ export default function Register() {
   async function handleRegister(e) {
     e.preventDefault();
 
+    if (!name || !email || !whatsapp || !city || !uf) {
+      toast.warn('Todos os campos são obrigatórios');
+      return;
+    }
+
     const data = {
       name,
       email,

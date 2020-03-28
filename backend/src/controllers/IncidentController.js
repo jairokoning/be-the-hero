@@ -41,7 +41,7 @@ module.exports = {
       .first();
 
     if (incident.ong_id !== ong_id) {
-      return response.status(401).json({ error: 'Operation not permitted.' });
+      return response.status(401).json({ error: 'Operação não permitido.' });
     }
 
     await connection('incidents').where('id', id).delete();

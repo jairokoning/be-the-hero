@@ -21,6 +21,11 @@ export default function NewIncident() {
   async function handleNewIncident(e) {
     e.preventDefault();
 
+    if (!title || !description || !value) {
+      toast.warn('Todos os campos são obrigatórios');
+      return;
+    }
+
     const data = {
       title,
       description,
@@ -71,7 +76,7 @@ export default function NewIncident() {
           />
           
           <input 
-            type="text" 
+            type="number" 
             placeholder="Valor em Reais"
             value={value} 
             onChange={e => setValue(e.target.value)} 
